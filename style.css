@@ -1,0 +1,44 @@
+body {
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    color: white;
+}
+.header {
+    padding-bottom: 50px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;   
+}
+ 
+ul {
+    list-style: none;
+}
+li {
+    display: inline-block;
+    margin: 10px; 
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.left {
+    width: 600px;
+}
+button {
+    background-color: #3882F6;
+    color: white;
+    padding: 12px 25px;
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+img {
+    width: 150px ;
+}
