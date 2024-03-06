@@ -40,5 +40,34 @@ button {
     border: 2px solid #3882F6;
 }
 img {
-    width: 150px ;
+    width: 100px;
+    height: 100px;
+}
+.body {
+    text-align: center;
+}
+.title {
+    font-size: 36px;
+    font-weight: bolder
+}
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.second-layer {
+    background-color: #E5E7EB;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+p {
+    font-style: italic;
+    font-size: 36px;
+}
+.quote {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
 }
