@@ -71,3 +71,22 @@ p {
     justify-content: flex-end;
     font-weight: bold;
 }
+.first-part {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.second-part {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
